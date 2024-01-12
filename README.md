@@ -1,4 +1,4 @@
-**بقیه اموزش فردا نوشته میشود. بعد از اسکریپت gre sit ipip را کامل تر میکنم**
+**بقیه اموزش فردا نوشته میشود. بعد از این، اسکریپت gre sit ipip را کامل تر میکنم**
 
 ![R (2)](https://github.com/Azumi67/PrivateIP-Tunnel/assets/119934376/a064577c-9302-4f43-b3bf-3d4f84245a6f)
 نام پروژه : تانل Reverse Http2 TCP
