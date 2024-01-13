@@ -34,6 +34,26 @@
 --------------
   <div align="right">
   <details>
+    <summary><strong><img src="https://github.com/Azumi67/FRP_Reverse_Loadbalance/assets/119934376/69acdc18-2163-4134-a376-32985b05cbec" alt="Image"> نکات</strong></summary>
+	  
+------------------------------------  
+	  
+- اگر خطای /root/go.mod:3: invalid go version '1.21.5': must match format 1.23 گرفتید : اینکارها را انجام دهید :
+<div align="left">
+	
+```
+nano /root/go.mod
+delete "go 1.21.5"
+paste this >> go 1.23
+```
+
+  </details>
+</div>
+
+------------------------------------
+
+  <div align="right">
+  <details>
     <summary><strong><img src="https://github.com/Azumi67/UDP2RAW_FEC/assets/119934376/71b80a34-9515-42de-8238-9065986104a1" alt="Image"> اموزش نصب go مورد نیاز برای اجرای اسکریپت</strong></summary>
   
 ------------------------------------ 
@@ -161,6 +181,8 @@ go get github.com/fatih/color
 
 - سپس داخل تب advanced و تب all میتوانید اینها را اضافه کنید . فقط به جای secrect و سایر موارد؛ مقادیر خود را قرار بدید( مقادیر SECRET KEY و سایر موارد توسط پنل شما ست شده است . پس قبل از کپی کردن متن پایین، نخست اون مقادیر را در Notepad بنویسید و در متن پایین جایگذاری کنید. یا قسمت هایی که فقط نیاز دارید را کپی کنید)
 
+<div align="left">
+
 ```
 {
   "api": {
@@ -286,3 +308,53 @@ go get github.com/fatih/color
 - حتما مقادیر خودتان را جایگذاری کنید. سپس میتوانید اینباند های خود را بسازید.
   </details>
 </div>
+
+
+-------------------------------
+
+**اسکرین شات**
+<details>
+  <summary align="right">Click to reveal image</summary>
+  
+  <p align="right">
+    <img src="https://github.com/Azumi67/6TO4-GRE-IPIP-SIT/assets/119934376/40e01e48-64d9-4160-a6e9-545f4bde957d" alt="menu screen" />
+  </p>
+</details>
+
+
+------------------------------------------
+
+![scri](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/cbfb72ac-eff1-46df-b5e5-a3930a4a6651)
+**اسکریپت های کارآمد :**
+- این اسکریپت ها optional میباشد.
+
+
+ 
+ Opiran Script
+```
+apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
+```
+
+Hawshemi script
+
+```
+wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/linux-optimizer.sh" -O linux-optimizer.sh && chmod +x linux-optimizer.sh && bash linux-optimizer.sh
+```
+
+-----------------------------------------------------
+![R (a2)](https://github.com/Azumi67/PrivateIP-Tunnel/assets/119934376/716fd45e-635c-4796-b8cf-856024e5b2b2)
+**اسکریپت من**
+----------------
+
+- دستور زیر فایل های پیش نیاز را نصب میکند و سپس اقدام به اجرای اسکریپت میکند. اگر مشکلی داشتید به صورت دستی هم میتوانید نصب کنید
+```
+sudo apt install curl -y  && bash <(curl -s https://raw.githubusercontent.com/Azumi67/Http2_reverseTunnel/main/install.sh)
+```
+
+- اگر به صورت دستی نصب کردید و پیش نیاز ها را هم دارید و میخواهید به صورت دستی هم اسکریپت را اجرا کنید میتوانید با دستور زیر اینکار را انجام دهید
+
+  
+```
+rm http2.go
+sudo apt install wget -y && wget -O /etc/logo.sh https://raw.githubusercontent.com/Azumi67/UDP2RAW_FEC/main/logo.sh && chmod +x /etc/logo.sh && wget https://raw.githubusercontent.com/Azumi67/Http2_reverseTunnel/main/http2.go && go run http2.go
+```
