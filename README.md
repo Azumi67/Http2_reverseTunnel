@@ -305,6 +305,7 @@ go get github.com/fatih/color
   "stats": {}
 }
 ```
+ <div align="right">
 - حتما مقادیر خودتان را جایگذاری کنید. سپس میتوانید اینباند های خود را بسازید.
   </details>
 </div>
