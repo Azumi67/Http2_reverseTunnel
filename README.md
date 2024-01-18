@@ -223,7 +223,7 @@ go get github.com/fatih/color
           "geosite:netflix",
           "geosite:spotify",
           "geosite:google",
-		  "geosite:microsoft",
+          "geosite:microsoft",
           "geosite:youtube",
           "geosite:meta"
         ]
@@ -265,7 +265,7 @@ go get github.com/fatih/color
       "tag": "warp",
       "protocol": "wireguard",
       "settings": {
-        "mtu": 1280,
+        "mtu": 1420,
         "DNS": "1.1.1.1 1.0.0.1",
         "secretKey": "YOUR SECRET KEY اینجا",
         "address": [
@@ -305,6 +305,7 @@ go get github.com/fatih/color
 ```
  <div align="right">
 - حتما مقادیر خودتان را جایگذاری کنید. سپس میتوانید اینباند های خود را بسازید.
+- اگرتانل شما از کار افتاد یکی از دلایل میتونه حتی این باشه که وارپ شما از کار افتاده.
   </details>
 </div>
 
