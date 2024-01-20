@@ -1612,7 +1612,6 @@ func resKharej() {
 	file.WriteString("#!/bin/bash\n")
 	file.WriteString("sudo systemctl daemon-reload\n")
 	file.WriteString("sudo systemctl restart gotunnel-kharej\n")
-	file.WriteString("sudo sync; echo 1 > /proc/sys/vm/drop_caches\n")
 	file.WriteString("sudo journalctl --vacuum-size=1M\n")
 
 	cmd := exec.Command("chmod", "+x", "/etc/http.sh")
@@ -1692,7 +1691,6 @@ func resIran() {
 	file.WriteString("#!/bin/bash\n")
 	file.WriteString("sudo systemctl daemon-reload\n")
 	file.WriteString("sudo systemctl restart gotunnel-iran\n")
-	file.WriteString("sudo sync; echo 1 > /proc/sys/vm/drop_caches\n")
 	file.WriteString("sudo journalctl --vacuum-size=1M\n")
 
 	cmd := exec.Command("chmod", "+x", "/etc/http.sh")
